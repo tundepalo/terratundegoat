@@ -14,7 +14,7 @@ resource azurerm_app_service_plan "example" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "6611bf45-fd5b-467e-b119-d533cd7539b8"
   }
 }
@@ -35,7 +35,7 @@ resource azurerm_app_service "app-service1" {
     git_last_modified_by = "Adin.Ermie@outlook.com"
     git_modifiers        = "Adin.Ermie/nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "13be096d-c599-46e5-bf54-51c6e9732858"
   }
 }
@@ -57,7 +57,7 @@ resource azurerm_app_service "app-service2" {
     git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "Adin.Ermie/nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "ec8295ab-af68-4cff-b0f1-b0cf5eaf1b75"
   }
 }
