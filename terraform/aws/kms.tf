@@ -10,8 +10,9 @@ resource "aws_kms_key" "logs_key" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "cd8fa2a7-4868-4cd1-993d-da4644808ce5"
+    email                = "dmensah"
   }
 }
 
