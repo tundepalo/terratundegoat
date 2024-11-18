@@ -26,8 +26,9 @@ resource aws_iam_role "iam_for_eks" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "de052596-21a0-43de-8153-469add277b18"
+    email                = "dmensah"
   }
 }
 
@@ -54,8 +55,10 @@ resource aws_vpc "eks_vpc" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "1600ca6c-72f6-45c0-a71d-88e117e51d6b"
+    }, {
+    email = "dmensah"
   })
 }
 
@@ -74,7 +77,7 @@ resource aws_subnet "eks_subnet1" {
     git_last_modified_by                             = "nimrodkor@gmail.com"
     git_modifiers                                    = "nimrodkor"
     git_org                                          = "bridgecrewio"
-    git_repo                                         = "terragoat"
+    git_repo                                         = "terratundegoat"
     "kubernetes.io/cluster/$${local.eks_name.value}" = "shared"
     yor_trace                                        = "1fb4fa23-a5d6-4d6a-b7dc-88749383f48d"
     }, {
@@ -84,6 +87,8 @@ resource aws_subnet "eks_subnet1" {
     "kubernetes.io/cluster/$$$${local.eks_name.value}" = "shared"
     "kubernetes.io/cluster/$$${local.eks_name.value}"  = "shared"
     "kubernetes.io/cluster/$${local.eks_name.value}"   = "shared"
+    }, {
+    email = "dmensah"
   })
 }
 
@@ -102,7 +107,7 @@ resource aws_subnet "eks_subnet2" {
     git_last_modified_by                             = "nimrodkor@gmail.com"
     git_modifiers                                    = "nimrodkor"
     git_org                                          = "bridgecrewio"
-    git_repo                                         = "terragoat"
+    git_repo                                         = "terratundegoat"
     "kubernetes.io/cluster/$${local.eks_name.value}" = "shared"
     yor_trace                                        = "9ce04af2-5321-4e6c-a262-e4d7c1f69525"
     }, {
@@ -112,6 +117,8 @@ resource aws_subnet "eks_subnet2" {
     "kubernetes.io/cluster/$$$${local.eks_name.value}" = "shared"
     "kubernetes.io/cluster/$$${local.eks_name.value}"  = "shared"
     "kubernetes.io/cluster/$${local.eks_name.value}"   = "shared"
+    }, {
+    email = "dmensah"
   })
 }
 
@@ -135,8 +142,9 @@ resource aws_eks_cluster "eks_cluster" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "7fa14261-c18d-4fa2-aec4-746f6e64d2d3"
+    email                = "dmensah"
   }
 }
 

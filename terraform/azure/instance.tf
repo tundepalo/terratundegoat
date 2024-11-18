@@ -36,8 +36,10 @@ resource azurerm_linux_virtual_machine "linux_machine" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "736ef713-51b8-4178-ad69-406be81f6ef2"
+    }, {
+    email = "dmensah"
   })
 }
 
@@ -71,7 +73,9 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_repo             = "terratundegoat"
     yor_trace            = "41938587-bdfc-4234-b941-560f1ae7d6c0"
+    }, {
+    email = "dmensah"
   })
 }
